@@ -5,4 +5,6 @@ function addElementToBeginningOfArray (array, element) {
   return [element, ...array];
 }
 
-function 
+function addElementToEndOfArray (array, element) {
+  return [...array, element];
+}
